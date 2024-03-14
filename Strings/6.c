@@ -3,10 +3,9 @@
 
 int main() {
     char str[] = "Hello, World!";
-    int length;
 
     // Using strlen() to find the length of the string
-    length = strlen(str);
+    int length = strlen(str);
 
     printf("The length of the string \"%s\" is: %d\n", str, length);
 
