@@ -3,11 +3,13 @@
 
 int main() {
     char str[] = "Hello, World!";
-
-    // Using strlen() to find the length of the string
-    int length = strlen(str);
-
-    printf("The length of the string \"%s\" is: %d\n", str, length);
-
+    
+    printf("Original string: %s\n", str);
+    
+    // Convert the string to lowercase
+    strlwr(str);
+    
+    printf("String in lowercase: %s\n", str);
+    
     return 0;
 }
